@@ -1,4 +1,4 @@
-package com.example.toy_random_github
+package com.example.toymvpgithubapi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Toy_random_github"
+rootProject.name = "ToyMvpGithubApi"

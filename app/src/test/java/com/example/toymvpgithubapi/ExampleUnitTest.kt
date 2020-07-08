@@ -1,4 +1,4 @@
-package com.example.toy_random_github
+package com.example.toymvpgithubapi
 
 import org.junit.Test
 

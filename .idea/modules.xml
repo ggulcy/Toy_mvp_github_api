@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Toy_random_github.iml" filepath="$PROJECT_DIR$/.idea/modules/Toy_random_github.iml" group="Toy_random_github" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Toy_random_github/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToyMvpGithubApi.iml" filepath="$PROJECT_DIR$/.idea/modules/ToyMvpGithubApi.iml" group="ToyMvpGithubApi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="ToyMvpGithubApi/app" />
     </modules>
   </component>
 </project>

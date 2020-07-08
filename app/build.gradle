@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.example.toy_random_github"
+        applicationId "com.example.toymvpgithubapi"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
