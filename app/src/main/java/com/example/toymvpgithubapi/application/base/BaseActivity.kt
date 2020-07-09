@@ -1,4 +1,4 @@
-package com.example.toymvpgithubapi.ui.application.base
+package com.example.toymvpgithubapi.application.base
 
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity

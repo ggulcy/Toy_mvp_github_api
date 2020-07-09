@@ -3,13 +3,17 @@ package com.example.toymvpgithubapi.ui.main
 import android.annotation.SuppressLint
 import com.example.toymvpgithubapi.data.api.ApiProvider
 import com.example.toymvpgithubapi.data.model.User
+import com.example.toymvpgithubapi.data.room.UserDao
 import com.example.toymvpgithubapi.ui.LikeEvent
 import com.example.toymvpgithubapi.ui.RxEvent
 import com.example.toymvpgithubapi.ui.main.MainContract
+import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import io.reactivex.schedulers.Schedulers
+import java.util.*
+import kotlin.collections.ArrayList
 
 
 class MainPresenter constructor(): MainContract.Presenter {
@@ -43,7 +47,7 @@ class MainPresenter constructor(): MainContract.Presenter {
     }
 
     @SuppressLint("CheckResult")
-    override fun evenetListen() {
+    override fun eventListener() {
         RxEvent.listen(LikeEvent::class.java).subscribe ({
             println("Listen event !! ")
             view.updateView(it.user)
@@ -52,6 +56,18 @@ class MainPresenter constructor(): MainContract.Presenter {
         },{
 
         })
+    }
+
+    @SuppressLint("CheckResult")
+    override fun addUser(userDao: UserDao, user: User) {
+        Observable.just(user)
+            .subscribeOn(Schedulers.io())
+            .subscribe({
+                println("Add User")
+                userDao.add(user)
+            },{
+                println("Fail add to userdao")
+            }).addTo(disposable)
     }
 
 }

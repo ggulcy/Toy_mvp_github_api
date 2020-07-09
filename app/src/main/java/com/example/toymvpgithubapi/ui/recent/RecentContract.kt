@@ -1,20 +1,20 @@
-package com.example.toymvpgithubapi.ui.detail
+package com.example.toymvpgithubapi.ui.recent
 
 import com.example.toymvpgithubapi.data.model.User
 import com.example.toymvpgithubapi.data.room.UserDao
 import com.example.toymvpgithubapi.application.base.BaseContract
 
 
-interface DetailContract {
+interface RecentContract {
 
     interface View:BaseContract.View{
-        fun setItem(user:User)
-        fun updateLike(like:Int)
+        fun setItem(items:ArrayList<User>)
     }
 
 
     interface Presenter:BaseContract.Presenter<View>{
-        fun recommendUser(dao:UserDao, user: User)
-        fun loadData(activity: DetailActivity)
+        fun loadData(user:UserDao)
+        fun delete(userDao: UserDao, user:User)
+        fun clearAll(user: UserDao)
     }
 }

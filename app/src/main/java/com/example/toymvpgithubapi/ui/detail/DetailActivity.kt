@@ -3,9 +3,10 @@ package com.example.toymvpgithubapi.ui.detail
 import android.annotation.SuppressLint
 import android.os.Bundle
 import com.bumptech.glide.Glide
-import com.example.toymvpgithubapi.ui.application.base.BaseActivity
+import com.example.toymvpgithubapi.application.base.BaseActivity
 import com.example.toymvpgithubapi.R
 import com.example.toymvpgithubapi.data.model.User
+import com.example.toymvpgithubapi.data.room.UserDatabase
 import kotlinx.android.synthetic.main.activity_detail.*
 import kotlinx.android.synthetic.main.activity_detail.iv_thumb
 import kotlinx.android.synthetic.main.activity_detail.tv_name
@@ -24,7 +25,9 @@ class DetailActivity : BaseActivity() , DetailContract.View{
         presenter.loadData(this)
 
         btn_like.setOnClickListener {
-            presenter.recommendUser(user)
+            presenter.recommendUser(
+                UserDatabase.getInstance(this)!!.getUserDao(),
+                user)
         }
 
     }

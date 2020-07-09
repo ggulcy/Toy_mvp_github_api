@@ -1,23 +1,34 @@
 package com.example.toymvpgithubapi.data.model
 
+import androidx.annotation.NonNull
+import androidx.room.Embedded
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
+@Entity(tableName = "userTable")
 class User : Serializable{
     //name
+    @Embedded
     @SerializedName("name")
-    val name:Name = Name()
+    var name:Name = Name()
 
     //gender
+    @Embedded
     @SerializedName("gender")
-    val gender:String = ""
+    var gender:String = ""
 
     //email
+    @PrimaryKey
+    @NonNull
     @SerializedName("email")
-    val email:String = ""
+    var email:String = ""
+
     //picture
+    @Embedded
     @SerializedName("picture")
-    val picture:Picture = Picture()
+    var picture:Picture = Picture()
 
 
     var like:Int = 0
@@ -25,20 +36,20 @@ class User : Serializable{
 
     class Name : Serializable{
         @SerializedName("title")
-        val title: String = ""
+        var title: String = ""
         @SerializedName("first")
-        val first: String = ""
+        var first: String = ""
         @SerializedName("last")
-        val last: String = ""
+        var last: String = ""
     }
 
     class Picture : Serializable{
         @SerializedName("large")
-        val large:String = ""
+        var large:String = ""
         @SerializedName("medium")
-        val medium:String = ""
+        var medium:String = ""
         @SerializedName("thumbnail")
-        val thumbnail:String = ""
+        var thumbnail:String = ""
     }
 
     override fun hashCode(): Int {

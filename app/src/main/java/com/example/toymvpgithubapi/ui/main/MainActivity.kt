@@ -2,10 +2,11 @@ package com.example.toymvpgithubapi.ui.main
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import com.example.toymvpgithubapi.ui.application.base.BaseActivity
+import com.example.toymvpgithubapi.application.base.BaseActivity
 import com.example.toymvpgithubapi.R
 import com.example.toymvpgithubapi.data.model.User
-import com.example.toymvpgithubapi.ui.application.navigator.Navigator
+import com.example.toymvpgithubapi.data.room.UserDatabase
+import com.example.toymvpgithubapi.application.navigator.Navigator
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() , MainContract.View {
@@ -21,11 +22,19 @@ class MainActivity : BaseActivity() , MainContract.View {
         presenter.setView(this)
         presenter.loadData()
 
-        mainAdapter.onItemClick = { navigator.toDetail(this,it) }
+        mainAdapter.onItemClick = {
+            presenter.addUser(
+                UserDatabase.getInstance(this)!!.getUserDao(),it
+            )
+            navigator.toDetail(this,it)
+        }
 
-        presenter.evenetListen()
+        presenter.eventListener()
 
 
+        btn_recent.setOnClickListener {
+            navigator.toRecent(this)
+        }
     }
 
 
@@ -46,6 +55,7 @@ class MainActivity : BaseActivity() , MainContract.View {
         recylcer_view.adapter = mainAdapter.apply {
             this.collections = items
         }
+
     }
 
     override fun updateView(user: User) {

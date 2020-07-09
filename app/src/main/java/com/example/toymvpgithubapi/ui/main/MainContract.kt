@@ -1,7 +1,8 @@
 package com.example.toymvpgithubapi.ui.main
 
-import com.example.toymvpgithubapi.ui.application.base.BaseContract
+import com.example.toymvpgithubapi.application.base.BaseContract
 import com.example.toymvpgithubapi.data.model.User
+import com.example.toymvpgithubapi.data.room.UserDao
 
 
 interface MainContract {
@@ -13,10 +14,8 @@ interface MainContract {
     }
 
     interface Presenter : BaseContract.Presenter<View>{
-
         fun loadData()
-        fun evenetListen()
-
-
+        fun eventListener()
+        fun addUser(userDao:UserDao,user:User)
     }
 }

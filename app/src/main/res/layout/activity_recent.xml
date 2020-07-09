@@ -15,11 +15,11 @@
 
 
     <Button
-        android:id="@+id/btn_recent"
+        android:id="@+id/btn_delete"
         android:layout_width="120dp"
+        android:text="CLEAR"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
-        android:text="RECENT"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="@id/recylcer_view"/>
 
