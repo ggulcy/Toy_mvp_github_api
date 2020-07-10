@@ -35,6 +35,8 @@ class MainActivity : BaseActivity() , MainContract.View {
         btn_recent.setOnClickListener {
             navigator.toRecent(this)
         }
+
+
     }
 
 
