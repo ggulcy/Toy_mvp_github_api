@@ -32,14 +32,13 @@ class MainPresenter constructor(): MainContract.Presenter {
     @SuppressLint("CheckResult")
     override fun loadData() {
         println("load data")
-
-
         ApiProvider.provideGithubApi().getUser(10)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .doOnSubscribe{ view.showProgress() }
             .doOnTerminate { view.hideProgress() }
             .subscribe({
+                it.result?.get(4)!!.viewType = 1
                 view.setItems(it.result as ArrayList<User>)
             },{
 

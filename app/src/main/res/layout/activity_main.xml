@@ -6,13 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".ui.main.MainActivity">
 
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recylcer_view"
+    <FrameLayout
+        android:id="@+id/fr"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        android:layout_height="match_parent">
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
 
     <Button
         android:id="@+id/btn_recent"
@@ -20,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
         android:text="RECENT"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/recylcer_view"/>
+        app:layout_constraintBottom_toBottomOf="@id/fr"
+        app:layout_constraintRight_toRightOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

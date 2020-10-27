@@ -81,4 +81,11 @@ dependencies {
     kapt "android.arch.persistence.room:compiler:$room_version"
     implementation "android.arch.persistence.room:rxjava2:$room_version"
 
+//
+//    implementation 'com.timehop.stickyheadersrecyclerview:library:0.4.3@aar'
+//
+//
+    implementation 'com.brandongogetap:stickyheaders:0.5.1'
+
+
 }

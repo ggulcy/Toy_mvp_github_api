@@ -55,4 +55,6 @@ class User : Serializable{
     override fun hashCode(): Int {
         return name.first.toInt()
     }
+
+    var viewType:Int = 0
 }

@@ -10,16 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fff6e8af-0f10-40b8-8710-85c435d4a97a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_header.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/toymvpgithubapi/data/model/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/toymvpgithubapi/data/model/User.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/toymvpgithubapi/ui/main/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/toymvpgithubapi/ui/main/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/toymvpgithubapi/ui/main/MainAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/toymvpgithubapi/ui/main/MainAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/toymvpgithubapi/ui/main/MainPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/toymvpgithubapi/ui/main/MainPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/toymvpgithubapi/ui/recent/RecentActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/toymvpgithubapi/ui/recent/RecentActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_recent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_user_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_user_list.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Galaxy_Note10_Plus_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="R3CM8094DLJ" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -38,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -65,6 +79,9 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/toymvpgithubapi/ui/Test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.toymvpgithubapi" />
     </key>
@@ -76,6 +93,7 @@
       <recent name="com.example.toymvpgithubapi" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.toymvpgithubapi.ui.main" />
       <recent name="com.example.toymvpgithubapi.ui.recent" />
       <recent name="com.example.toymvpgithubapi.ui.application" />
     </key>
@@ -166,11 +184,13 @@
       <screen x="0" y="23" width="3360" height="1765" />
     </state>
     <state x="1096" y="580" key="#PSD/0.23.3360.1765@0.23.3360.1765" timestamp="1594198598963" />
-    <state x="2299" y="625" key="#com.intellij.ide.util.MemberChooser" timestamp="1594288163479">
-      <screen x="0" y="23" width="3360" height="1757" />
+    <state x="4420" y="-351" key="#com.intellij.ide.util.MemberChooser" timestamp="1595490153218">
+      <screen x="1792" y="-1084" width="3840" height="2137" />
     </state>
     <state x="2299" y="625" key="#com.intellij.ide.util.MemberChooser/0.23.3360.1757@0.23.3360.1757" timestamp="1594288163479" />
     <state x="2299" y="628" key="#com.intellij.ide.util.MemberChooser/0.23.3360.1765@0.23.3360.1765" timestamp="1594273485458" />
+    <state x="2354" y="509" key="#com.intellij.ide.util.MemberChooser/0.23.3440.1417@0.23.3440.1417" timestamp="1595417955346" />
+    <state x="4420" y="-351" key="#com.intellij.ide.util.MemberChooser/1792.-1084.3840.2137/0.23.1792.1097@1792.-1084.3840.2137" timestamp="1595490153218" />
     <state x="1973" y="833" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594287693452">
       <screen x="0" y="23" width="3360" height="1757" />
     </state>
@@ -180,37 +200,56 @@
       <screen x="0" y="23" width="3360" height="1757" />
     </state>
     <state x="2282" y="789" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.3360.1757@0.23.3360.1757" timestamp="1594287694885" />
+    <state x="4410" y="-262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595492075158">
+      <screen x="1792" y="-1084" width="3840" height="2137" />
+    </state>
+    <state x="4410" y="-262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1792.-1084.3840.2137/0.23.1792.1097@1792.-1084.3840.2137" timestamp="1595492075158" />
     <state x="2283" y="564" width="584" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1594258122247">
       <screen x="0" y="23" width="3360" height="1765" />
     </state>
     <state x="2283" y="564" width="584" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.3360.1765@0.23.3360.1765" timestamp="1594258122247" />
-    <state width="1638" height="479" key="GridCell.Tab.0.bottom" timestamp="1594286384070">
-      <screen x="0" y="23" width="3360" height="1757" />
+    <state x="4527" y="-161" key="AndroidCreateXmlResourceDialog" timestamp="1594701759090">
+      <screen x="1792" y="-1084" width="3840" height="2137" />
     </state>
-    <state width="1638" height="479" key="GridCell.Tab.0.bottom/0.23.3360.1757@0.23.3360.1757" timestamp="1594286384070" />
+    <state x="4527" y="-161" key="AndroidCreateXmlResourceDialog/1792.-1084.3840.2137/0.23.1792.1097@1792.-1084.3840.2137" timestamp="1594701759090" />
+    <state width="1878" height="584" key="GridCell.Tab.0.bottom" timestamp="1595491532038">
+      <screen x="1792" y="-1084" width="3840" height="2137" />
+    </state>
+    <state width="1638" height="520" key="GridCell.Tab.0.bottom/0.23.3360.1757@0.23.3360.1757" timestamp="1594605920257" />
     <state width="1638" height="481" key="GridCell.Tab.0.bottom/0.23.3360.1765@0.23.3360.1765" timestamp="1594275642188" />
-    <state width="1638" height="479" key="GridCell.Tab.0.center" timestamp="1594286384070">
-      <screen x="0" y="23" width="3360" height="1757" />
+    <state width="1678" height="366" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1595422960368" />
+    <state width="1878" height="584" key="GridCell.Tab.0.bottom/1792.-1084.3840.2137/0.23.1792.1097@1792.-1084.3840.2137" timestamp="1595491532038" />
+    <state width="1878" height="584" key="GridCell.Tab.0.center" timestamp="1595491532037">
+      <screen x="1792" y="-1084" width="3840" height="2137" />
     </state>
-    <state width="1638" height="479" key="GridCell.Tab.0.center/0.23.3360.1757@0.23.3360.1757" timestamp="1594286384070" />
+    <state width="1638" height="520" key="GridCell.Tab.0.center/0.23.3360.1757@0.23.3360.1757" timestamp="1594605920256" />
     <state width="1638" height="481" key="GridCell.Tab.0.center/0.23.3360.1765@0.23.3360.1765" timestamp="1594275642188" />
-    <state width="1638" height="479" key="GridCell.Tab.0.left" timestamp="1594286384069">
-      <screen x="0" y="23" width="3360" height="1757" />
+    <state width="1678" height="366" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1595422960368" />
+    <state width="1878" height="584" key="GridCell.Tab.0.center/1792.-1084.3840.2137/0.23.1792.1097@1792.-1084.3840.2137" timestamp="1595491532037" />
+    <state width="1878" height="584" key="GridCell.Tab.0.left" timestamp="1595491532037">
+      <screen x="1792" y="-1084" width="3840" height="2137" />
     </state>
-    <state width="1638" height="479" key="GridCell.Tab.0.left/0.23.3360.1757@0.23.3360.1757" timestamp="1594286384069" />
+    <state width="1638" height="520" key="GridCell.Tab.0.left/0.23.3360.1757@0.23.3360.1757" timestamp="1594605920256" />
     <state width="1638" height="481" key="GridCell.Tab.0.left/0.23.3360.1765@0.23.3360.1765" timestamp="1594275642188" />
-    <state width="1638" height="479" key="GridCell.Tab.0.right" timestamp="1594286384070">
+    <state width="1678" height="366" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1595422960367" />
+    <state width="1878" height="584" key="GridCell.Tab.0.left/1792.-1084.3840.2137/0.23.1792.1097@1792.-1084.3840.2137" timestamp="1595491532037" />
+    <state width="1878" height="584" key="GridCell.Tab.0.right" timestamp="1595491532038">
+      <screen x="1792" y="-1084" width="3840" height="2137" />
+    </state>
+    <state width="1638" height="520" key="GridCell.Tab.0.right/0.23.3360.1757@0.23.3360.1757" timestamp="1594605920256" />
+    <state width="1638" height="481" key="GridCell.Tab.0.right/0.23.3360.1765@0.23.3360.1765" timestamp="1594275642188" />
+    <state width="1678" height="366" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1595422960368" />
+    <state width="1878" height="584" key="GridCell.Tab.0.right/1792.-1084.3840.2137/0.23.1792.1097@1792.-1084.3840.2137" timestamp="1595491532038" />
+    <state x="2185" y="430" key="run.anything.popup" timestamp="1594617449123">
       <screen x="0" y="23" width="3360" height="1757" />
     </state>
-    <state width="1638" height="479" key="GridCell.Tab.0.right/0.23.3360.1757@0.23.3360.1757" timestamp="1594286384070" />
-    <state width="1638" height="481" key="GridCell.Tab.0.right/0.23.3360.1765@0.23.3360.1765" timestamp="1594275642188" />
-    <state x="2185" y="432" key="run.anything.popup" timestamp="1594257587945">
-      <screen x="0" y="23" width="3360" height="1765" />
-    </state>
+    <state x="2185" y="430" key="run.anything.popup/0.23.3360.1757@0.23.3360.1757" timestamp="1594617449123" />
     <state x="2185" y="432" key="run.anything.popup/0.23.3360.1765@0.23.3360.1765" timestamp="1594257587945" />
-    <state x="2185" y="435" width="670" height="676" key="search.everywhere.popup" timestamp="1594266733072">
-      <screen x="0" y="23" width="3360" height="1765" />
+    <state x="4289" y="-585" width="766" height="819" key="search.everywhere.popup" timestamp="1595489334078">
+      <screen x="1792" y="-1084" width="3840" height="2137" />
     </state>
     <state x="2185" y="435" width="670" height="676" key="search.everywhere.popup/0.23.3360.1765@0.23.3360.1765" timestamp="1594266733072" />
+    <state x="2237" y="354" width="686" height="543" key="search.everywhere.popup/0.23.3440.1417@0.23.3440.1417" timestamp="1595420948224" />
+    <state x="4289" y="-585" width="766" height="819" key="search.everywhere.popup/1792.-1084.3840.2137/0.23.1792.1097@1792.-1084.3840.2137" timestamp="1595489334078" />
   </component>
 </project>

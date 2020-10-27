@@ -2,6 +2,7 @@ package com.example.toymvpgithubapi.ui.main
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.toymvpgithubapi.application.base.BaseActivity
 import com.example.toymvpgithubapi.R
 import com.example.toymvpgithubapi.data.model.User
@@ -29,6 +30,8 @@ class MainActivity : BaseActivity() , MainContract.View {
             navigator.toDetail(this,it)
         }
 
+
+
         presenter.eventListener()
 
 
@@ -54,13 +57,16 @@ class MainActivity : BaseActivity() , MainContract.View {
     }
 
     override fun setItems(items: ArrayList<User>) {
-        recylcer_view.adapter = mainAdapter.apply {
-            this.collections = items
+        recycler_view.apply {
+            layoutManager = LinearLayoutManager(this@MainActivity)
+            adapter = mainAdapter.apply { this.collections = items }
         }
+
+
 
     }
 
     override fun updateView(user: User) {
-        mainAdapter.updateView(user)
+//        mainAdapter.updateView(user)
     }
 }
